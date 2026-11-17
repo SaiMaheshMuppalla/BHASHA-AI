@@ -1,0 +1,32 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Hugging Face cache and model weights
+.cache/
+huggingface_cache/
+*.safetensors
+pytorch_model*.bin
+*.pt
+*.pth
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Mac and editor
+.DS_Store
+.idea/
+.vscode/
